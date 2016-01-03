@@ -1,10 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/mnt/hgfs/hirschb/swat/radius/curation/render'
-let g:netrw_dirhist_2='/mnt/hgfs/hirschb/swat/radius/test-data/render/couple/clips'
-let g:netrw_dirhist_3='/mnt/hgfs/hirschb/swat/radius/curation/render/src'
-let g:netrw_dirhist_4='/mnt/hgfs/hirschb/swat/radius/curation/render'
-let g:netrw_dirhist_5='/mnt/hgfs/hirschb/swat/radius/curation/render/include'
-let g:netrw_dirhist_6='/mnt/hgfs/hirschb/swat/radius/curation/render/include/radius'
-let g:netrw_dirhist_7='/mnt/hgfs/hirschb/swat/radius/curation/render/include/radius/render'
-let g:netrw_dirhist_8='/mnt/hgfs/hirschb/swat/radius/curation/render/src'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/Users/hirschb/swat/radius/test-data'
+let g:netrw_dirhist_2='/Users/hirschb/swat/package/scripts/libraries/open-frameworks/cmake/ami'
