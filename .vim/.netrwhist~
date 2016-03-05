@@ -1,7 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/mnt/hgfs/hirschb/swat/radius/curation/annotate'
-let g:netrw_dirhist_2='/mnt/hgfs/hirschb/swat/radius/curation/annotate/jni'
-let g:netrw_dirhist_3='/mnt/hgfs/hirschb/swat/radius/curation/annotate/src'
-let g:netrw_dirhist_4='/mnt/hgfs/hirschb/swat/radius/curation/annotate'
-let g:netrw_dirhist_5='/mnt/hgfs/hirschb/swat/radius/curation/annotate/jni'
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/hirschb/swat/scripts'
+let g:netrw_dirhist_2='/Users/hirschb/swat/scripts/include'
+let g:netrw_dirhist_3='/Users/hirschb/work/AndroidStudioProjects/hello-neon1/app/build'
+let g:netrw_dirhist_4='/Users/hirschb/work/stitch'
+let g:netrw_dirhist_5='/usr/local/include'
+let g:netrw_dirhist_6='/usr/local/include/gperftools'
+let g:netrw_dirhist_7='/usr/local/Cellar/opencv/2.4.9/include/opencv2/core'
+let g:netrw_dirhist_8='/Users/hirschb/Android/android-libs/boost-1.55.0/configs'
+let g:netrw_dirhist_9='/Users/hirschb/swat/radius/stitching/opencl-stitch/libstitch'
