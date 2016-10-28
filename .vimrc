@@ -122,3 +122,6 @@ set relativenumber
 let g:ctrlp_cmd='CtrlP :pwd'
 
 set smartcase
+
+nnoremap <leader>d :windo diffthis<CR>
+nnoremap <leader>do :windo diffoff<CR>
