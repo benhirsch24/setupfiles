@@ -10,7 +10,6 @@ if has("vms")
 else
   set backup		" keep a backup file
 endif
-set backupdir=~/.backups
 
 set history=50		" keep 50 lines of command line history
 set ruler		" show the cursor position all the time
@@ -88,40 +87,53 @@ augroup END
 
 let mapleader=","
 
+" Pathogen is important
 execute pathogen#infect()
-set backupdir=~/.backup
 
+" make sure to create this directory
+set backupdir=~/.backups
+
+" Remap movement keys
 inoremap jk <ESC>
 nnoremap j gj
 nnoremap k gk
+
+" Tab with ctrl k/j
 nnoremap <C-k> gt
 nnoremap <C-j> gT
+
+" Annoyances with highlighting
 nnoremap <C-l> :nohl<CR>
+" When in visual mode, ctrl-l exits that
 vnoremap <C-l> <ESC>
-
+" Align text on "=" using the tabular plugin
 vnoremap <leader>= :Tab /=<CR>
-
+" B goes to beginning of line, E goes to end
 nnoremap B ^
 nnoremap E $
 
-set expandtab
-set shiftwidth=4
-set tabstop=4
+" Commenting these out for now as I'm in a golang shop :'(
+"set expandtab
+"set shiftwidth=4
+"set tabstop=4
 
+" Open nerdtree
 nnoremap <C-n> :NERDTreeToggle<CR>
-
-nnoremap <leader>g :.w !bash<CR>
-
-nnoremap <space> za
+" Sets the annoying line here
 set cursorline
-
-nnoremap <leader>u :GundoToggle<CR>
-
+" Relative line numbers
 set relativenumber
 
+" Enables CtrlP fuzzy file searcher
 let g:ctrlp_cmd='CtrlP :pwd'
 
+" According to https://vim.fandom.com/wiki/Searching
+" If both ignorecase and smartcase are on,
+" then searches are case sensitive only if the word contains capitals
+set ignorecase
 set smartcase
 
+" diff current windows
 nnoremap <leader>d :windo diffthis<CR>
+" no diff current windows
 nnoremap <leader>do :windo diffoff<CR>

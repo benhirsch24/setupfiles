@@ -1,4 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/Users/hirschb/swat/radius/test-data'
-let g:netrw_dirhist_2='/Users/hirschb/swat/package/scripts/libraries/open-frameworks/cmake/ami'
